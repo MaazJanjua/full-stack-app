@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col  justify-center items-center lg:h-[44vh] h-[70vh] leading-[7vw] lg:leading-[4vw] px-[12vw]">
-        <div className="lg:text-[2.3vw]  text-[5vw]  font-bold flex justify-center items-center text-center  gap-[2.3vw] uppercase ]"> <h1>Buy Me A Chai </h1> <span>
+      <div className="flex flex-col  justify-center items-center lg:h-[60vh] h-[65vh] leading-[7vw] lg:leading-[2vw] px-[12vw]">
+        <div className="lg:text-[2.3vw]  text-[5vw]   flex justify-center items-center text-center  gap-[2.3vw] uppercase font-extrabold] "> <h1>Buy Me A Chai </h1> <span>
 
           <lord-icon
             src="https://cdn.lordicon.com/elcmkycs.json"
@@ -17,8 +17,8 @@ export default function Home() {
           >
           </lord-icon>
         </span>  </div>
-        <p>A Crowfunding Platform For Creators. Get Funded By Your Fans And Followers.</p>
-        <div className="flex gap-2">
+        <p className="lg:text-[1.8vw] text-[4.7vw] text-center">A Crowfunding Platform For Creators. Get Funded By Your Fans And Followers.</p>
+        <div className="flex gap-2 pt-[4vh]">
           <button type="button" className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5 rounded-md">Start-Now</button>
           <button type="button" className="text-white bg-gradient-to-br from-purple-900 to-blue-900 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-900 dark:focus:ring-blue-900 font-medium  text-sm px-4 py-2.5 text-center leading-5 rounded-md">Read-More</button>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* funds-Info-Div */}
 
-        <div className="lg:h-[33.4vh] h-[81vh] items-center  justify-around text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
+        <div className="lg:flex lg:h-[45.4vh] h-[81vh] items-center  justify-around text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
           <div className="">
             <div className="item flex flex-col justify-center items-center leading-[4vh]">
               <lord-icon
@@ -50,8 +50,8 @@ export default function Home() {
                 state="in-reveal"
                 style={{ width: "70px", height: "70px" }}>
               </lord-icon>
-              <p>Fund YourSelf</p>
-              <p>Your Fans Are Avilable For You To Help You</p>
+              <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
@@ -63,8 +63,8 @@ export default function Home() {
                 delay="2000"
                 style={{ width: "90px", height: "90px" }}>
               </lord-icon>
-              <p>Fund YourSelf</p>
-              <p>Your Fans Are Avilable For You To Help You</p>
+              <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
@@ -77,8 +77,8 @@ export default function Home() {
                 style={{ width: "70px", height: "70px" }}
               >
               </lord-icon>
-              <p>Fund YourSelf</p>
-              <p>Your Fans Are Avilable For You To Help You</p>
+              <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
             colors="primary:#ffffff"
             style={{ width: "50px", height: "50px" }}>
           </lord-icon></div></div>
-        <div className="  lg:h-[33.4vh] h-[81vh] items-center  justify-around text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
+        <div className=" lg:flex lg:h-[45.4vh] h-[81vh] items-center  justify-around text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
           <div>
             <div className="item flex flex-col justify-center items-center text-center leading-[4vh]">
               <lord-icon
@@ -107,7 +107,7 @@ export default function Home() {
                 style={{ width: "70px", height: "70px" }}>
               </lord-icon>
               <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
-              <p className="lg:text-[2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
                 style={{ width: "70px", height: "70px" }}>
               </lord-icon>
               <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
-              <p className="lg:text-[2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
@@ -135,7 +135,7 @@ export default function Home() {
                 style={{ width: "70px", height: "70px" }}>
               </lord-icon>
               <p className="text-[5vw] lg:text-[1.2vw] uppercase">Fund YourSelf</p>
-              <p className="lg:text-[2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
+              <p className="lg:text-[1.2vw] opacity-60">Your Fans Are Avilable For You To Help You</p>
             </div>
           </div>
 
