@@ -40,7 +40,7 @@ export default function Home() {
 
         {/* funds-Info-Div */}
 
-        <div className="lg:flex lg:h-[45.4vh] h-[81vh] items-center  justify-around text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
+        <div className="lg:flex lg:h-[45.4vh] h-[81vh]  justify-between items-center  text-center container mx-auto pt-[4vh] pb-[8vh] grid grid-cols-2 gap-4">
           <div className="">
             <div className="item flex flex-col justify-center items-center leading-[4vh]">
               <lord-icon
