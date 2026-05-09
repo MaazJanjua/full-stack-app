@@ -1,6 +1,15 @@
+'use client'
 import Image from "next/image";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import('locomotive-scroll')).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
   return (
     <>
       <div className="flex flex-col  justify-center items-center lg:h-[60vh] h-[65vh] leading-[7vw] lg:leading-[2vw] px-[12vw]">
@@ -28,7 +37,7 @@ export default function Home() {
       <div>
 
 
-        
+
         <div className="flex justify-center items-center text-center h-[8vh] lg-[text.7vw] text-[5.7vw] lg:text-[1.2vw] md:text-[2.2vw] font-bold uppercase gap-[1.2vw] px-[4vw] pt-[8vh]"> <h2 className="">Your Fans Can Buy You A Chai</h2><div><lord-icon
           src="https://cdn.lordicon.com/ynhknmbh.json"
           trigger="loop"
